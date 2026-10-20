@@ -1,0 +1,18 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images"
+public_path: "/images"
+
+collections:
+  - name: "site_images"
+    label: "Site Images & Media"
+    files:
+      - file: "src/content/media.json"
+        label: "Hero & Assets"
+        name: "hero_and_assets"
+        fields:
+          - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+          - {label: "Site Favicon", name: "favicon", widget: "image", required: false}
+          - {label: "Website Logo", name: "logo", widget: "image", required: false}
