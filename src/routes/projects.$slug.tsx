@@ -20,7 +20,7 @@ export const Route = createFileRoute("/projects/$slug")({
         { name: "description", content: d },
         { property: "og:title", content: `${p.name} | 3T Construction Group` },
         { property: "og:description", content: d },
-        { name: "author", content: "Lyks Saavedra" },
+        { name: "author", content: "Eko Saavedra" },
       ],
     };
   },

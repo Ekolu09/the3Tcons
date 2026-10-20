@@ -8,6 +8,7 @@ export const Route = createFileRoute("/privacy")({
       { name: "description", content: "How 3T Construction Group collects, uses and protects information submitted through this website." },
       { property: "og:title", content: "Privacy Policy | 3T Construction Group" },
       { property: "og:description", content: "How we handle information submitted through our project inquiry form." },
+      { name: "author", content: "Eko Saavedra" },
     ],
   }),
   component: Privacy,
